@@ -1,125 +1,82 @@
-<!DOCTYPE  html>
+<!DOCUMENT html>
 <html lang="en">
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, intial-scale-1.0">
-<meta http-equiv="X-UA-copitable" content=IE-edge>
-<title>Fill up Email and password</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-compitable" content="IE-edge">
+<title>This is 4 Project of registration form</title>
 <head>
-
 	<style>
-		body
-			{
-			background-image: url('bbc.jpg');
-			background-size: cover;
-		}
-		table{
-			background-color: whitesmoke;
-		}
-		h1{
-			background-color: chocolate;
-		}
+
+
 		
+		body{
+			font-family: calibiri,Helvetica sans-serif;
+			background-color: lightsalmon;
+
+		}
+		.container{
+			padding: 50px;
+			background-color: mediumturquoise;
+		}
+		address{
+			line-height: 50px;
+		}
+		input[type=text]
+		{
+			width: 100%;
+			padding: 15px;
+			margin: 2px 0,20px 0;
+			border: navy;
+			background: #f1f1f1;
+		}
 	</style>
-	<body> 
-		<div class="container" align="center">
-		
-			<h2><font color="brown"><strong>User personal information </strong></font></h2>
-	
-		<h1><div align="center"><font color="#008000">Addmistion Form MODAL Collage</font></div></h1>
-		<form action="https://www.modallearning.com/">
-			
-			
-			<table>
-			    <tr>
-					<td class="tdtable"><label for="register user name" class="lebel"><font color="black">User name</font></label></td>
-					<td><input type="text" name="name" id="register user name" value=""></td>
-				</tr>
-				<tr>
-					<td class="tdtable"><label for="register email" class="lebel"><font  color="black">Enter email</font></label></td>
-					<td><input type="text" name="email" id="register Email" value="" ></td>
-				</tr>
-					<tr>
-						<td class="tdtable"><label for="register password" class="lebel"><font color="black">Create password</font></label></td>
-						<td><input type="text" name="password" id="register password" value=""></td>
-					</tr>
+	<body>
+		<form action="https://collegedunia.com/college/57414-babu-banarasi-das-engineering-college-bbdec-lucknow/courses-fees">
+			<div class="container" align="left">
+				<center><h1>Registration form for Engineer</h1></center>
+				<hr>
+				<label><b>First name</b></label>
+				<input type="text" name="first name" value=""><br><br>
+				<label><b>Last name</b></label>
+				<input type="text" name="last name" value=""><br><br>
+				<label><b> Enter email</b></label>
+				<input type="text" name="email" value=""><br><br>
+				<label><b>Create password</b></label>
+				<input type="text" name="password" value=""><br><br>
+				<label><b>Confirm password</b></label>
+				<input type="text" name="password" value=""><br><br>
+				<label><b>Mobile no</b></label>
+				<input type="text" name="mobile no" value="+91" size="10"><br><br>
+				<label><b>Gender</b></label>
+				<input type="checkbox" name="gender" value="Male">Male
+				<input type="checkbox" name="gender" value="Female">Female
+				<input type="checkbox" name="gender" value="Other">Other<br><br>
+				<label><b>Date of birth</b></label>
+				<input type="date" name="start day" value=""  ><br><br>
+				<label><b>Enter country</b></label>
+				<select>
+					<option value="Enter country"></option>
+					<option value="America">America</option>
+					<option value="India">India</option>
+					<option value="China">china</option>
+					<option value="Pakistan">Pakistan</option>
+					<option value="iraq">Iraq</option>
+				</select><br><br>
+				<label><b>Enter your state</b></label>
+				<select >
+					<option value="Enter your state"></option>
+					<option value="Utterpradesh" >Utterpadesh</option>
+					<option value="India">India</option>
+					<option value="Uttrakhand">Uttrakhand</option>
+					<option value="chattisgarh">Chattisgarh</option>
+					<option value="bhopal">bhopal</option>
+					<option value="Lucknow">Lucknow</option>
+					<option value="Varansi">Varansi</option>
+				</select><br><br>
+				<label><b>Enter your Address</b></label>
+				<input type="text" name="address" placeholder="Enter your Address" size="20" height="100%" value=""><br><br>
+				<button><font color="chocolate"><b>Submit</b></font></button>
 
-						<tr>
-							<td class="tdtable"><label for="register Confirm password" class="lebel"><font color="black">Confirm Password</font></label></td>
-							<td><input type="text" name="password"id="register password" value=""></td>
-						</tr>
-
-							<tr>
-								<td><label for="Gender" class="Lebel"><font color="black">Gender</font></label></td>
-								<td><input type="radio" name="gender" id="register gender" value="Male"><font color="black">Male</font></td>
-								<td><input type="radio" name="gender" id="register gender" value="Female"><font color="black">Female</font></td>
-							</tr>
-
-								<tr>
-									<td class="tdtable"><label for="Education" class="Lebel"><font color="black">Higher Education</font></label></td>
-									<td><select name="Education" id="register Educatin" style="width:160px">
-										<option value="B.tech"><font color="deepblack">B.tech</font></option>
-										<option value="B.C.A"><font color="deepblack">B.C.A</font></option>
-										<option value="B.com"><font color="deepblack">B.com</font></option>
-										<option value=" B.S.C"><font color="deepblack">B.S.C</font></option>
-										
-									</select></td>
-								</tr>
-
-								<tr>
-									<td class="tdtable"><label for="registerd marksheet" class="lebel"><font color="black">Select Marksheet to upload</font></label></td>
-									<td><input type="file" name="new file" id="registerd file" value="choose file" ></td>
-								</tr>
-
-									<tr>
-										<td class="tdtable"><label for="Country" class="lebel"><font color="black"> Select Country</font></label></td>
-										<td><select name="country" id="register country" style="width:160px">
-										<option value="America"><font color="deepblack">America</font></option>
-										<option value="japan"><font color="deepblack">Japan</font></option>
-										<option value="Chaina"><font color="deepblack">China</font></option>
-										<option value="india"><font color="deepblack">India</font></option>
-										<option value="Ukraine"><font color="deepblack">Ukraine</font></option>
-										<option value="Shiri lanka"><font color="deepblack">Shiri lanka</font></option>
-									</select></td>
-								</tr>
-
-								<tr>
-									<td class="tdtable"><label for="register Dae of birth" class="leble"><font color="black">Date of birth</font></label></td>
-									<td><input type="Date" name="start day" id="register date of birth" value=""></td>
-								</tr>
-
-									<tr>
-										<td class="tdtable"><label for="register Mobile Number"><font color="black">Mobile Number</font></label></td>
-										<td><input type="text" name="Mobile Number" id="register Mobile Number" value=""></td>
-									</tr>
-
-										<tr>
-											<td class="tdtable"><label for="register State" class="Leble"><font color="black">Your State</font></label></td>
-											<td>
-												<select name="Your State" id="register state" style="width:150px">
-													<option value="Uttrakhand"><font color="deepblack">Uttrakhand</font></option>
-													<option value="Utter Pradesh"><font color="deepblack">Uttar pradesh</font>/option>
-													<option value="Jammukasmir"><font color="deepblack">Jammukasmir</font></option>
-													<option value="arunachal pradesh"><font color="deepblack">Arunachal pradesh</font></option>
-													<option value="Tamilnadu"><font color="deepblack"></font>Tamilnadu</option>
-												
-											</select></td>
-										</tr>
-
-											<tr>
-												<td class="tdtable"><label for="registerd Address" class="leble"><font color="black">Enter Your Address</font></label></td>
-												<td><input type="text" name="Address" id="register Address" value=""></td>
-											</tr>
-													<tr>
-														<td><font color="#00FF00"><div align="right"><input type="Submit"name="submit" id="register 0" value="Register" onclick="alert('you had registerd on this site')"></div></td>
-													</tr>
-											
-
-											</table>
-			</fieldset>
-			</div>
 		</form>
-		</p>
-
 	</body>
 </head>
-		
