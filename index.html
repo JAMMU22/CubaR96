@@ -1,87 +1,125 @@
-<!DOCTYPE html>
+<!DOCTYPE  html>
 <html lang="en">
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width,intial-scle=1.0" >
-<meta http-equiv="X-UA-compitable" content="IE-edge">
+<meta name="viewport" content="width=device-width, intial-scale-1.0">
+<meta http-equiv="X-UA-copitable" content=IE-edge>
+<title>Fill up Email and password</title>
 <head>
+
 	<style>
-		body{
-			background-color: cornflowerblue;
-			background-image: url('ppc.jpg');
+		body
+			{
+			background-image: url('bbc.jpg');
+			background-size: cover;
+		}
+		table{
+			background-color: whitesmoke;
 		}
 		h1{
 			background-color: chocolate;
 		}
-		container{
-			padding: 150px;
-			background-color: lightblue;
-		}
+		
 	</style>
-	<body>
-		<form>
-			<div class="container">
-				<center><h1>Registration form of Sport</h1></center>
-				
-				<div align="center">
-				<label><strong><font color="brown">First name</font></strong></label>
-				<input type="text" name="first name" placeholder="First name" required="15"><br><br>
-				<label><strong><font color="brown">Middle name</font></strong> </label>
-				<input type="text" name="middile name" placeholder="Middle name" required="15"><br><br>
-				<label><strong><font color="brown">Last name</font></strong></label>
-				<input type="text" name="Last name" placeholder="Last name" required="15"><br><br>
-
-				
-					<label><strong><font color="brown">Gender</font></strong></label>
-					<input type="radio" name="gender" value="Male" checked>Male
-					<input type="radio" name="gender" value="Female">Female
-					<input type="radio" name="gender" value="other">Other
-				<br><br>
-
-				<label><strong><font color="brown">Phon</font></strong></label>
-				<input type="text" name="country code" value="+91" size="2">
-				<input type="text" name="phone" placeholder="Pone no" size="10"><br><br>
-				<label><strong><font color="brown">Email</font></strong></label>
-				<input type="text" name="Email" placeholder="Email" size="14"><br><br>
-				<label><strong><font color="brown">Date of birth<font></strong></label>
-				<input type="date" name="start day" value=""><br><br>
-				<label><strong><font color="brown">Upload Passport size Photo</font></strong></label>
-				<input type="file" name="passport size photo" value="Choose file" ><br><br>
-				<label ><strong><font color="brown">Select country</font></strong></label>
-					<select name=" Country" id="register Country" style="width:160px"  >
+	<body> 
+		<div class="container" align="center">
+		
+			<h2><font color="brown"><strong>User personal information </strong></font></h2>
 	
-				<option value="America">America</option>
-				<option value="Pakistan">Pakistan</option>
-				<option value="India">India</option>
-				<option value="Ukrain">Ukrain</option>
-				<option value="chaina">chaina</option>
-				<option value="Japan">Japan</option>
-				<option value="Canada">Canada</option>
-				</select>
-				<label><strong><font color="brown">Which level of player</font></strong></label>
-				<select name="player" id="register level plyer" style="width:160px">
-					<option value="District  Level">District level</option>
-					<option value="State Level">State Level</option>
-					<option value="Country Level"> Country Level</option>
-					<option value="International Level">International Level</option>
-				
-
-				</select><br><br>
-				<label><strong><font color="brown">Write somting about your self</font></strong></label>
-				<input type="text" name="self introduction" placeholder="Here write about somthing own self" style="width:500px" maxlength="200px " ><br><br>
-				<label><strong><font color="brown">Create password</font></strong></label>
-				<input type="text" name="password" placeholder="password" size="14"><br><br>
-				<button><font color="Red">Submit</font></button>
-
-
-
-
+		<h1><div align="center"><font color="#008000">Addmistion Form MODAL Collage</font></div></h1>
+		<form action="https://www.modallearning.com/">
 			
-				
+			
+			<table>
+			    <tr>
+					<td class="tdtable"><label for="register user name" class="lebel"><font color="black">User name</font></label></td>
+					<td><input type="text" name="name" id="register user name" value=""></td>
+				</tr>
+				<tr>
+					<td class="tdtable"><label for="register email" class="lebel"><font  color="black">Enter email</font></label></td>
+					<td><input type="text" name="email" id="register Email" value="" ></td>
+				</tr>
+					<tr>
+						<td class="tdtable"><label for="register password" class="lebel"><font color="black">Create password</font></label></td>
+						<td><input type="text" name="password" id="register password" value=""></td>
+					</tr>
 
+						<tr>
+							<td class="tdtable"><label for="register Confirm password" class="lebel"><font color="black">Confirm Password</font></label></td>
+							<td><input type="text" name="password"id="register password" value=""></td>
+						</tr>
 
+							<tr>
+								<td><label for="Gender" class="Lebel"><font color="black">Gender</font></label></td>
+								<td><input type="radio" name="gender" id="register gender" value="Male"><font color="black">Male</font></td>
+								<td><input type="radio" name="gender" id="register gender" value="Female"><font color="black">Female</font></td>
+							</tr>
 
+								<tr>
+									<td class="tdtable"><label for="Education" class="Lebel"><font color="black">Higher Education</font></label></td>
+									<td><select name="Education" id="register Educatin" style="width:160px">
+										<option value="B.tech"><font color="deepblack">B.tech</font></option>
+										<option value="B.C.A"><font color="deepblack">B.C.A</font></option>
+										<option value="B.com"><font color="deepblack">B.com</font></option>
+										<option value=" B.S.C"><font color="deepblack">B.S.C</font></option>
+										
+									</select></td>
+								</tr>
 
+								<tr>
+									<td class="tdtable"><label for="registerd marksheet" class="lebel"><font color="black">Select Marksheet to upload</font></label></td>
+									<td><input type="file" name="new file" id="registerd file" value="choose file" ></td>
+								</tr>
+
+									<tr>
+										<td class="tdtable"><label for="Country" class="lebel"><font color="black"> Select Country</font></label></td>
+										<td><select name="country" id="register country" style="width:160px">
+										<option value="America"><font color="deepblack">America</font></option>
+										<option value="japan"><font color="deepblack">Japan</font></option>
+										<option value="Chaina"><font color="deepblack">China</font></option>
+										<option value="india"><font color="deepblack">India</font></option>
+										<option value="Ukraine"><font color="deepblack">Ukraine</font></option>
+										<option value="Shiri lanka"><font color="deepblack">Shiri lanka</font></option>
+									</select></td>
+								</tr>
+
+								<tr>
+									<td class="tdtable"><label for="register Dae of birth" class="leble"><font color="black">Date of birth</font></label></td>
+									<td><input type="Date" name="start day" id="register date of birth" value=""></td>
+								</tr>
+
+									<tr>
+										<td class="tdtable"><label for="register Mobile Number"><font color="black">Mobile Number</font></label></td>
+										<td><input type="text" name="Mobile Number" id="register Mobile Number" value=""></td>
+									</tr>
+
+										<tr>
+											<td class="tdtable"><label for="register State" class="Leble"><font color="black">Your State</font></label></td>
+											<td>
+												<select name="Your State" id="register state" style="width:150px">
+													<option value="Uttrakhand"><font color="deepblack">Uttrakhand</font></option>
+													<option value="Utter Pradesh"><font color="deepblack">Uttar pradesh</font>/option>
+													<option value="Jammukasmir"><font color="deepblack">Jammukasmir</font></option>
+													<option value="arunachal pradesh"><font color="deepblack">Arunachal pradesh</font></option>
+													<option value="Tamilnadu"><font color="deepblack"></font>Tamilnadu</option>
+												
+											</select></td>
+										</tr>
+
+											<tr>
+												<td class="tdtable"><label for="registerd Address" class="leble"><font color="black">Enter Your Address</font></label></td>
+												<td><input type="text" name="Address" id="register Address" value=""></td>
+											</tr>
+													<tr>
+														<td><font color="#00FF00"><div align="right"><input type="Submit"name="submit" id="register 0" value="Register" onclick="alert('you had registerd on this site')"></div></td>
+													</tr>
+											
+
+											</table>
+			</fieldset>
 			</div>
 		</form>
+		</p>
+
 	</body>
 </head>
+		
